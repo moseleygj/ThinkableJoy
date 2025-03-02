@@ -1,0 +1,310 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background:#335477;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  min-width:375px;
+}
+
+#card {
+  /* height:450px;
+  width:800px;*/
+  height: 100%;
+  width: 100%;
+  border: ;
+  border-radius: ;
+  color: ;
+  background: #335477;
+  position: ;
+  font-weight: ;
+  margin: 0 auto 0;
+}
+#card1 {
+  /* height:450px;
+  width:800px;*/
+  height: 100%;
+  width: 100%;
+  border: ;
+  border-radius: ;
+  color: ;
+  background: #ffffff;
+  position: ;
+  font-weight: ;
+  margin: 0 auto 0;
+}
+#title {
+}
+.tiers {
+  height: 520px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+}
+.tiers:hover {
+  border: 1px solid black;
+}
+.tierTitle {
+  height: 55px;
+  width: 300px;
+  background-color: #848489;
+  border: 0px solid grey;
+  border-radius: 5px 5px 0px 0px;
+  color: white;
+  text-align: center;
+}
+
+.tierH {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  height: 55px;
+  width: 300px;
+  font-size: 28px;
+  text-shadow: 1px 1px 2px #c0bfc0;
+}
+.item-cell {
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+.itemIcon {
+  height: 40px;
+  width: 40px;
+  border: none;
+  float: right;
+}
+
+.itemDescription {
+  height: 246x;
+  width: 255px;
+  border: none;
+  float: left;
+  color: #434343;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  text-align: left;
+  text-indent: 11px;
+  font-family: "Open Sans";
+}
+.icn {
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+#provider {
+  height: 550px;
+  width: 550px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  border: ;
+  margin: 0 auto 0;
+}
+
+#provider-photo-Holder {
+  height: 419px;
+  width: 100%;
+  border: ;
+}
+#providerPhoto {
+  height: 395px;
+  width: 395px;
+  border: 3px solid #268db8;
+  border-radius: 50%;
+  margin: 0 auto 0;
+  position: relative;
+}
+
+#provider-sub-title {
+  height: 50px;
+  border: ;
+  color: lightgrey;
+}
+
+
+#provider-title {
+  height: 75px;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-family: ;
+  padding-top:16px;
+  padding-bottom:-7px;
+}
+
+#provider-title-extended{
+  color:white;
+  text-align:center;
+    height:20px;
+  font-size:18px;
+  padding:0px 0px 28px 0px;
+}
+
+#centerTiers {
+  text-align: center;
+  width: auto;
+  height: 100%;
+  border: 1px solid red;
+  margin: 0 auto 0;
+  align-items: center; /* Center content horizontally */
+}
+/*-- fix this section --*/
+/*perks*/
+
+.textDescript {
+  height: 150px;
+  width: ;
+  text-align: ;
+  border: ;
+  color: grey;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.headTitle {
+  height: 30px;
+  width: ;
+  text-align: ;
+  border: ;
+  font-weight: bold;
+  font-size: 30px;
+  color: #434343;
+}
+
+.cardPerks {
+  width: 45%;
+  height: 245px;
+  border: ;
+  float: left;
+  padding-left: 30px;
+}
+
+.cardPic {
+  height: 50px;
+  width: 100%;
+  text-align: ;
+  border: ;
+}
+
+
+#cardHolster{
+  width:100%;height:1050px;background-color:red
+}
+
+/* Tablet Styles */
+@media (max-width: 900px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    .container {
+        padding: 40px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 612px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    .container {
+        padding: 20px;
+    }
+   .cardPerks{
+    width:100%;
+  }
+   .headTitle{
+    font-size:34px;height:34px;}
+  
+  #cardHolster{
+  width:100%;height:1750px;background-color:red
+}
+}
+
+@media (min-width: 612px) and (max-width: 766px) {
+
+  .headTitle{
+    font-size:24px;
+  }
+}
+
+
+/*Menu Bar*/
+.navbar {
+    background-color: #335477;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays above other content */
+  position:absolute;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #268db8;
+    color: white;
+
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 40px; /* Adds spacing between sections */
+}
+/*Menu Bar*/
+
+#backToTop{
+  position:fixed;
+  background:green;
+  height:50px;
+  width:50px;
+    right:0;
+  bottom:0;
+  z-index:1;
+  opacity:80%;
+  border-radius:20%;
+  overflow:hidden;
+  
+   display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; /* Ensures the image doesn't overflow */
+        }
